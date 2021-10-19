@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div>
-      <audio muted id="player">
+      <audio @ended="nextSong" muted id="player">
         <source src="./assets/test.mp3">
         <source src="./assets/test2.mp3">
       </audio>
