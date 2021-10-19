@@ -19,3 +19,7 @@ npm run build
 ```
 npm run lint
 ```
+### References
+
+- https://developer.chrome.com/blog/autoplay/
+- https://javascript-tutor.net/index.php/playing-music-using-javascript/
