@@ -1,28 +1,36 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+    <!-- Container -->
+    <div class="h-screen w-full bg-gray-900 flex flex-col justify-center items-center">
+
+      <!-- Content -->
+      <div class="flex flex-col items-center justify-center">
+
+        <!-- Vue Logo -->
+        <div>
+          <img alt="Vue logo" src="./assets/logo.png">
+        </div>
+
+        <!-- Header -->
+        <div class="mt-4 text-center">
+          <h1 class="font-semibold text-3xl text-green-400">Vue 2 + TailwindCSS</h1>
+          <h1 class="font-semibold text-2xl text-green-400 mt-1">Starter Kit</h1>
+        </div>
+
+      </div>
+
+    </div>
+
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
